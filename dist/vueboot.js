@@ -12782,7 +12782,7 @@ exports.default = {
     }
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n    <div class=\"alert\" :class=\"'alert-' + type\" role=\"alert\">\n        <button v-if=\"dismissible\" type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n            <span aria-hidden=\"true\">×</span>\n            <span class=\"sr-only\">Close</span>\n        </button>\n        <slot></slot>\n    </div>\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n    <div class=\"alert\" :class=\"'alert-' + type\" role=\"alert\">\n        <button v-if=\"dismissible\" type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n            <span aria-hidden=\"true\">x</span>\n            <span class=\"sr-only\">Close</span>\n        </button>\n        <slot></slot>\n    </div>\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = _dereq_("vue-hot-reload-api")
   hotAPI.install(_dereq_("vue"), true)
